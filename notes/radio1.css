@@ -7,6 +7,7 @@ Seletores
         [title] or mais especifico
         [title="xqq"]
     -universal
+        * {color: red;}
 */
 
 /*
@@ -25,7 +26,7 @@ Combinator
 display: block
 
 1.Ocupa toda a linha, como um `bloco`
-2.`width` e `height`, `border` funcionam por completo
+2.`width` e `height` sao aplicados
 3.`padding`, `margin`, `border` funcionam por completo
 
 > elementos
