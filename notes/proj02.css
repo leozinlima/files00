@@ -1,0 +1,8 @@
+object-fit: contain;
+object-fit: cover;
+object-fit: fill;
+object-fit: none;
+
+ul li::marker {
+    color: #333333;
+  }
