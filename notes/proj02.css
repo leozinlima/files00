@@ -10,3 +10,5 @@ ul li::marker {
 ul, ol {
     list-style-type: disc; /* Define o marcador como bolinha preenchida */
 }
+
+  text-indent: -0.5em
