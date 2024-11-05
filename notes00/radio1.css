@@ -1,0 +1,51 @@
+/* 
+Seletores
+    -type/element/tag
+    -id
+    -class
+    -atributo
+        [title] or mais especifico
+        [title="xqq"]
+    -universal
+        * {color: red;}
+*/
+
+/*
+Combinator
+    -Descendent
+        article p
+    -List
+        span, mark
+    -Next sibling
+        h2 + p
+    - Child
+        aside > ul
+*/
+
+/*
+display: block
+
+1.Ocupa toda a linha, como um `bloco`
+2.`width` e `height` sao aplicados
+3.`padding`, `margin`, `border` funcionam por completo
+
+> elementos
+`<div>, <main>, <header>, <section>, <p>, <h...>`
+
+*/
+
+/* 
+display: inline
+
+1.Ocupa apenas o espaco do conteydo do elemento
+2.Elementos poderao ficar em `em linha`
+3.`width` e `height` nao se aplicam
+4.Aplicamos apenas os valores horizontais de
+`margin`, `padding` e `border`
+
+> elementos 
+`<a>, <span>, <strong>, <em>`
+
+*/
+
+border-width: x y z k (sentido horario)

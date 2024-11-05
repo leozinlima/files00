@@ -1,0 +1,41 @@
+css {
+    cascating stylesheet;
+    propriedade: valor;
+}
+
+/* comentario */
+
+/* 
+Anatomia
+
+    *Declaration (todo o bloco de codigo)
+    *Selector
+    *{} - context
+    *Properties
+    *Property value
+
+    value -> uppercase = caixa-alta
+*/
+
+
+/*
+Especificidade
+    -Cada seletor tem um peso
+    -Soma dos pesos faz a declaracao
+    ser aplica. eg.: p#text.green
+
+    #id - 100
+    .class - 10
+    element - 1
+*/
+
+/*
+Mais especificidade (tentar nao usar)
+    -style
+    -!important 
+        ...
+        font-size: 12px !important;
+*/
+
+<data-type>
+uppercase is <keyword>

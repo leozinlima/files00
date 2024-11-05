@@ -1,0 +1,43 @@
+Shorthand properties are CSS properties that 
+let you set the values of multiple other CSS 
+properties simultaneously.
+
+/* font-family */
+p{
+    /* genericos */
+    font-family: monospace;
+    /* nome da familia + genericos */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* 
+    color,
+    text-transform,
+    text-decoration
+*/
+/* text-transform: uppercase */
+/* text-transform: lowercase */
+/* text-transform: capitalize */
+
+/* 
+    text-align
+    line-height
+*/
+p {
+    /* text-align: center; */
+    /* text-align: right; */
+    text-align: justify;
+    line-height: 1.2;
+}
+
+/* 
+    letter-spacing
+    word-spacing
+*/
+p {
+    letter-spacing: 1;
+    word-spacing: 3;
+}
+
+margin: auto -> nao funciona inline e em block nao funciona na vertical
